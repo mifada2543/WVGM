@@ -1,0 +1,6 @@
+{
+  "name": "WVGM",
+  "description": "A dynamic WebView application for loading local IP addresses and websites.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
