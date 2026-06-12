@@ -44,7 +44,7 @@ android {
       signingConfig = signingConfigs.getByName("release")
     }
     debug {
-      signingConfig = signingConfigs.getByName("debugConfig")
+      // signingConfig = signingConfigs.getByName("debugConfig")
     }
   }
   compileOptions {
@@ -119,3 +119,8 @@ dependencies {
   "ksp"(libs.androidx.room.compiler)
   "ksp"(libs.moshi.kotlin.codegen)
 }
+
+kotlin {
+  jvmToolchain(21)
+}
+
